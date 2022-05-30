@@ -1,18 +1,20 @@
+import { Button, Input, Modal, ModalBody, Radio, RadioGroup, Select } from "@chakra-ui/react";
 import React from "react";
+
 
 const AddProduct = () => {
   // TODO: Remove below const and instead import them from chakra
-  const Button = () => <div />;
-  const Modal = () => <div />;
-  const ModalBody = () => <div />;
-  const Input = () => <div />;
-  const Select = () => <div />;
-  const RadioGroup = () => <div />;
-  const Radio = () => <div />;
+  // const Button = () => <div />;
+  // const Modal = () => <div />;
+  // const ModalBody = () => <div />;
+  // const Input = () => <div />;
+  // const Select = () => <div />;
+  // const RadioGroup = () => <div />;
+  // const Radio = () => <div />;
 
   return (
     <>
-      <Button my={4} data-cy="add-product-button"></Button>
+      <Button my={4} data-cy="add-product-button" >AddThings</Button>
       <Modal>
         <ModalBody pb={6}>
           <Input data-cy="add-product-title" />
